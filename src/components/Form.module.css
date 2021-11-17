@@ -1,1 +1,23 @@
 /* style here */
+.inputGroup {
+  margin-top: 1000px;
+}
+
+.label {
+  display: block;
+}
+
+.input {
+  padding: 10px;
+  color: #fff;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 5px;
+}
+
+.input:focus {
+  outline: 0;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #00b5cc;
+}
