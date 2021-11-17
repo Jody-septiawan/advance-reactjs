@@ -1,14 +1,14 @@
-import { Container, Button } from "react-bootstrap";
-import { useHistory } from "react-router-dom";
+import { Container, Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
   // call useHistory to get history instances
-  const history = useHistory();
+  const navigate = useNavigate();
 
   // create function for handle push to another pages
   // using button
   const handlePushToSignIn = () => {
-    history.push("/signin");
+    navigate('/signin');
   };
 
   return (
