@@ -1,4 +1,4 @@
-import { Redirect, Route } from "react-router-dom";
+// import { Redirect, Route } from "react-router-dom";
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
   // assume that user is not login yet
@@ -6,12 +6,12 @@ const PrivateRoute = ({ component: Component, ...rest }) => {
 
   return (
     <>
-      <Route
+      {/* <Route
         {...rest}
         render={(props) =>
           isSignin ? <Component {...props} /> : <Redirect to="/signin" />
         }
-      />
+      /> */}
     </>
   );
 };

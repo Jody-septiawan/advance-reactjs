@@ -1,6 +1,7 @@
-import { Container } from "react-bootstrap";
+import { Container } from 'react-bootstrap';
 
 // import component
+import DetailAbout from '../components/DetailAbout';
 
 function About() {
   return (
@@ -16,7 +17,11 @@ function About() {
         quis nibh gravida, ut hendrerit felis fringilla. Proin at aliquam
         tortor.
       </p>
-      {/* code here */}
+      <DetailAbout
+        title="Success.td"
+        summary="No. 1 Automobile company is USA"
+        total="1300"
+      />
     </Container>
   );
 }
